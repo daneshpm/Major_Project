@@ -29,6 +29,10 @@ import pandas as pd
 from Networksecurity.utilis.main_utils.utils import load_object
 
 from Networksecurity.utilis.ml_utils.model.estimator import NetworkModel
+import os
+import dagshub
+
+dagshub.auth.add_app_token("f2882c751efa91e406e01870a84aa79ea4a9b3b7")
 
 
 client = pymongo.MongoClient(mongo_db_url, tlsCAFile=ca)
