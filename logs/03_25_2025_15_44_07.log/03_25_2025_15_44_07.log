@@ -1,0 +1,9 @@
+[ 2025-03-25 15:44:21,599 ] 74 dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+[ 2025-03-25 15:44:27,647 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2025-03-25 15:44:28,112 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2025-03-25 15:44:28,612 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-25 15:44:28,617 ] 107 dagshub - INFO - Accessing as daneshpm
+[ 2025-03-25 15:44:29,077 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/daneshpm/Major_Project "HTTP/1.1 200 OK"
+[ 2025-03-25 15:44:29,537 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-25 15:44:29,539 ] 107 dagshub - INFO - Initialized MLflow to track repo "daneshpm/Major_Project"
+[ 2025-03-25 15:44:29,540 ] 107 dagshub - INFO - Repository daneshpm/Major_Project initialized!
