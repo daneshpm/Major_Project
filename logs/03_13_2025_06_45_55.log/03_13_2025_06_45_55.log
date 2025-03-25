@@ -1,0 +1,7 @@
+[ 2025-03-13 06:46:00,978 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-13 06:46:00,984 ] 107 dagshub - INFO - Accessing as daneshpm
+[ 2025-03-13 06:46:01,450 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/daneshpm/Major_Project "HTTP/1.1 200 OK"
+[ 2025-03-13 06:46:01,930 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-13 06:46:01,933 ] 107 dagshub - INFO - Initialized MLflow to track repo "daneshpm/Major_Project"
+[ 2025-03-13 06:46:01,933 ] 107 dagshub - INFO - Repository daneshpm/Major_Project initialized!
+[ 2025-03-13 06:46:24,174 ] 44 root - INFO - Start data Ingestion
